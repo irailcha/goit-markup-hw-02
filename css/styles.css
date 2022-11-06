@@ -1,0 +1,119 @@
+:root {
+  --background-color-hero: #2F303A;
+  --background-color-first: #FFFFFF;
+  --background-color-second: #F5F5F5;
+  --background-color-third: #F5F4FA;
+  --color-borders: #ECECEC;
+  --color-brand: #2196F3;
+  --color-logo-second: #000000;
+  --color-primary: #212121;
+  --color-secondary:#757575;
+  --color-accent: #188CE8;
+  }
+
+body{
+    font-family: sans-serif 'Roboto';
+    --background-color-first: #FFFFFF;
+    
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+.hero{
+    background-color: var(--background-color-hero);
+}
+
+/*Логотип*/
+/*Логотип header*/
+.link-logo,
+.logo-header{
+    color: var(--color-logo-second);
+    font-style: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19; 
+    letter-spacing: 0.03em;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo-header{
+    color: var(--color-brand);
+    font-style: 'Raleway', sans-serif;
+}
+
+.link-logo:hover,
+.link-logo:focus{
+    color: var(--color-accent);
+}
+
+
+/*Логотип footer*/
+
+.logo{
+    color:var(--color-brand);
+    font-style: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.logo-footer{
+    color: var(--background-color-first);
+    font-style: 'Raleway', sans-serif;
+}
+
+/*питання не вирішене*/
+.logo:hover,
+.logo:focus{
+    color: var(--color-accent);
+}
+
+
+/*Навігація*/
+
+.link{
+    color: var(--color-primary);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.link:hover,
+.link:focus{
+    color: var(--color-accent);
+}
+
+.contact{
+    color: var(--color-secondary);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.contact:hover,
+.contact:focus{
+    color: var(--color-accent);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+.footer{
+    background-color: var(--background-color-hero);
+}
