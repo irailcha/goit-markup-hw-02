@@ -53,7 +53,7 @@ a{
 /*Логотип footer*/
 
 .logo{
-    color:var(--color-brand);
+    color:var(--background-color-first);
     font-style: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -61,11 +61,11 @@ a{
     letter-spacing: 0.03em;
 }
 .logo-footer{
-    color: var(--background-color-first);
+    color: var(--color-brand);
     font-style: 'Raleway', sans-serif;
 }
 
-/*питання не вирішене*/
+
 .logo:hover,
 .logo:focus{
     color: var(--color-accent);
@@ -134,6 +134,25 @@ a{
     background-color: var(--color-accent);
 }
 
+
+.button-secondary{
+        color: var(--color-primary);
+        background-color: var(--background-color-third);
+        border-radius: 4px;
+        border-style: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: Center;
+        letter-spacing: 0.03em;
+    }
+
+.button-secondary:hover,
+.button-secondary:focus{
+    color: var(--background-color-first);
+    background-color: var(--color-accent);
+}
+
 /*секція subtitle-hero */
 
 .caption{
@@ -167,9 +186,24 @@ a{
 
 /*секція section-fuatures Чим ми займайємося*/
 
-
+.fuature-box{
+    display: flex;
+}
 
 /*секція section-team Наша команда*/
+.section-team{
+    background-color: var(--background-color-third);
+}
+
+.section-team li{
+    background-color: var(--background-color-first);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-img{
+    
+}
 .team-name{
     color: var(--color-primary);
     font-weight: 500;
@@ -194,3 +228,59 @@ a{
 .footer{
     background-color: var(--background-color-hero);
 }
+.address-footer{
+    color: var(--background-color-first);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.contact-footer{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.address-footer:hover,
+.address-footer:focus{
+    color: var(--color-accent);
+}
+
+.contact-footer:hover,
+.acontact-footer:focus{
+    color: var(--color-accent);
+}
+
+.list-project li{
+    border: 1px solid #EEEEEE
+}
+
+.list-project-subtitle {
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.list-project-subtitle:hover,
+.list-project-subtitle:focus{
+    color: var(--color-accent);
+}
+
+.text-project{
+    color: var(--color-secondary);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
+.text-project:hover,
+.text-project:focus{
+    color: var(--color-accent);
+}
+
