@@ -9,15 +9,12 @@
   --color-primary: #212121;
   --color-secondary:#757575;
   --color-accent: #188CE8;
-  
-  }
+}
 
 body{
     color: var(--color-primary);
     font-family: 'Roboto', sans-serif;
     background-color: var(--background-color-first);
-    
-    
 }
 
 ul{
@@ -26,8 +23,6 @@ ul{
 a{
     text-decoration: none;
 }
-
-
 
 /*Логотип*/
 /*Логотип header*/
@@ -39,7 +34,6 @@ a{
     font-size: 26px;
     line-height: 1.19; 
     letter-spacing: 0.03em;
-    
 }
 
 .logo-header{
@@ -51,13 +45,13 @@ a{
 .link-logo:focus{
     color: var(--color-logo-second);
 }
+
 .logo-header:hover,
 .logo-header:focus {
     color: var(--color-brand);
 }
 
 /*Логотип footer*/
-
 .logo{
     color:var(--background-color-first);
     font-family: 'Raleway', sans-serif;
@@ -93,8 +87,6 @@ a{
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-
-
 
 .link:hover,
 .link:focus{
@@ -152,16 +144,16 @@ a{
 
 
 .button-secondary{
-        font-family: 'Roboto', sans-serif;
-        background-color: var(--background-color-third);
-        border-radius: 4px;
-        border-style: none;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.62;
-        text-align: center;
-        letter-spacing: 0.03em;
-        cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color-third);
+    border-radius: 4px;
+    border-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
     }
 
 .button-secondary:hover,
@@ -171,7 +163,6 @@ a{
 }
 
 /*секція subtitle-hero */
-
 .caption{
     color: var(--color-primary);
     font-weight: 700;
@@ -187,7 +178,6 @@ a{
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-
 
 .section-tittle{
     font-weight: 700;
@@ -229,9 +219,6 @@ a{
     letter-spacing: 0.03em;
 }
 
-
-
-
 /*footer*/
 .footer{
     background-color: var(--background-color-hero);
@@ -261,8 +248,6 @@ a{
     color: var(--color-brand);
 }
 
-
-
 /*портфоліо проєкти*/
 
 .visually-hidden { 
@@ -278,7 +263,6 @@ a{
         clip: rect(0 0 0 0); 
         overflow: hidden;
     }
-
 
 .list-project-subtitle {
     color: var(--color-primary);
